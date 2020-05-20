@@ -1,10 +1,10 @@
-
+//This is the person class
 open class Person(name:String, age:Int)
 {
 	var Name:String
 	var Age:Int
-	var eating:Boolean
-	var walking:Boolean
+	var eating:Boolean //eating state variable to determine if person is eating
+	var walking:Boolean //walking state variable to determine if person is walking
 
 	init
 	{
