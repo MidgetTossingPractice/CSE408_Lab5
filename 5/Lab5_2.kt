@@ -3,7 +3,7 @@ fun main(args: Array<String>)
 {
 	var mathTeacher:MathTeacher = MathTeacher("Giorno Giovanna", 25, "CSUSB")
 	var footBaller:Athlete = Athlete("Andrew Andrewson Andrewton", 57, "Muted E-Spooats", "Football")
-	var businessMan:BusinessMan = BusinessMan("Tadata Tadadaka", 24, "Rocket Scientist", "Imperial Japanese Navy")
+	var businessMan:BusinessMan = BusinessMan("Tadata Tadadaka", 24, "Imperial Japanese Navy", "Rocket Scientist")
 
 	mathTeacher.eat()
 	mathTeacher.walk()
